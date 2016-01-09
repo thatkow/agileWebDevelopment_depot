@@ -46,3 +46,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'bcrypt-ruby', '3.1.2'
