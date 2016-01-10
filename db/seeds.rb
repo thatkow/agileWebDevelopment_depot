@@ -22,3 +22,6 @@ This is a book all about Andrew Kowalczyk.
 </p>},
 image_url: 'andrew.jpg',
 price: 19.95)
+
+User.delete_all
+User.create(name: 'admin',password: 'admin',password_confirmation: 'admin')
