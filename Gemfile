@@ -47,3 +47,7 @@ group :development do
 end
 
 gem 'bcrypt-ruby', '3.1.2'
+
+group :production do
+  gem 'mysql2'
+end
